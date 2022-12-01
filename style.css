@@ -1,0 +1,424 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+:root{
+    --color: #ffffff;
+}
+
+.menu{
+    width: 100vw;
+    height: 60px;
+    background: #ffffff;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.menu h1{  
+    width: 412px;
+    height: 100px;
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    text-align: center;
+    letter-spacing: -0.292683px;
+    color: #1E0E62;
+    margin-top: 20px;
+
+}
+
+.menu button{
+    width: 100px;
+    height: 40px;
+    border: 2px solid #ebeaed;
+    border-radius: 100px;background: #ffffff;
+    position: relative;
+    margin-top: 10px;
+    margin-right: 115px;    
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 22px;
+    color: #1E0E62;
+}
+
+/*________________________________________________________________________________Container Sec1*/
+
+.container_sec1{
+    width: 100vw;
+    height: 520px;
+    background: #2b2929;
+    display: flex;
+    flex-direction: row;
+}
+.sec1_texto{
+    display: flex;
+    flex-direction: column;
+    padding: 109px 0 0 116px;
+    flex-grow: 1;
+}
+.sec1_texto div{
+    width: 422px;
+    height: 169px;
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 60px;
+    color: var(--color);
+}
+div.p{
+    width: 369px;
+    height: 153px;
+    display: flex;
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 26px;
+    color: rgba(224, 224, 228, 0.4);
+}
+
+.sec1_img{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+.sec1_img img{
+    margin-right: 115px;
+    width: 500px;
+    height: 500px;
+    border-radius: 30px;
+    margin-top: 30px;
+}
+
+/*__________________________________________________________________________Mis Habilidades*/
+
+.mis_habilidades{
+    width: 100vw;
+    height: 699px;
+    background: #2b2929;
+    display: flex;
+    flex-direction: column;
+}
+.mis_habilidades h2{
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 42px;
+    line-height: 52px;
+    text-align: center;
+    color: var(--color);
+    position: relative;
+    margin-top: 100px;
+}
+.hab_p{
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 22px;    
+    text-align: center;
+    color: rgba(224, 224, 228, 0.4);
+    mix-blend-mode: normal;  
+    position: relative;
+    margin-top: 40px;
+    width: 793px;
+    margin-left: 304px;
+}
+.habilidades{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    position: relative;
+    margin-top: 95px;
+    margin-left: 219px;
+    width: 973px;
+    height: 127px;
+    text-align: center;
+}
+.habilidades div{
+    width: 266px;
+}
+.habilidades h3{
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 28px;
+    text-align: center;
+    color: var(--color);
+}
+.habilidades p{
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    text-align: center;
+    color: rgba(224, 224, 228, 0.4);
+    mix-blend-mode: normal; 
+    position: relative;
+    margin-top: 21px;
+    width: 266px;
+}
+
+/*__________________________________________________________________________Mi Experiencia*/
+
+.mi_experiencia{
+    width: 100vw;
+    height: auto;
+    background: #ffffff;
+}
+
+.mi_experiencia h2{
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 42px;
+    line-height: 52px;
+    text-align: center;
+    color: #1E0E62;
+    position: relative;
+    margin-top: 100px;
+}
+.exp_p{
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 22px;    
+    text-align: center;
+    color: rgba(21, 20, 57, 0.4);
+    mix-blend-mode: normal;  
+    position: relative;
+    margin-top: 40px;
+    width: 758px;
+    margin-left: 304px;
+}
+.mi_experiencia button{
+    width: 200px;
+    height: 50px;
+    background: #25DAC5;
+    border: none;
+    border-radius: 100px;
+    position: relative;
+    margin-top: 55px;
+    margin-left: 50%;
+    transform: translateX(-50%);
+    color: #ffffff;    
+}
+.experiencias{
+    position: relative;
+    margin-top: 80px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.experiencias div{
+    width: 370px;
+    height: 484px;
+    margin: 70px 15px 0 15px;
+}
+.experiencias div img{
+    width: 350px;
+    height: 350px;
+}
+.experiencias div h3{
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 32px;
+    color: #1E0E62;
+    position: relative;
+    margin-top: 20px;
+}
+.experiencias div p{
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    color: rgba(21, 20, 57, 0.4);
+    mix-blend-mode: normal;
+    position: relative;
+    margin-top: 10px;
+}
+
+/*__________________________________________________________________________Informacion*/
+
+.informacion{
+    width: 100vw;
+    height: 715px;
+    background: #2b2929;   
+    display: flex; 
+    flex-direction: column;
+}
+
+.informacion h2{
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 58px;
+    text-align: center;
+    color: #a1a1a1;
+    position: relative;
+    margin-top: 194px;
+}
+
+.informacion a{
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-size: 55px;
+    line-height: 70px;
+    text-align: center;
+    letter-spacing: -1px;
+    color: var(--color);
+    text-decoration: none;
+    display: block;
+}
+.iconos{
+    position: relative;
+    margin-top: 138px;
+    width: 191px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-self: center;
+}
+.iconos a{
+    font-size: 27px;
+    color: #e7e7e7;
+}
+
+/*___________________________________________________________________________Movil*/
+
+@media (max-width: 950px) {
+    *{
+        width: auto;
+        height: auto;
+    }
+    .container{
+        display: flex;
+        flex-direction: column;
+    }
+    .menu{
+        width: 100vw;
+        height: 60px;
+        display: flex;
+        flex-direction: row;
+    }
+    .menu button{
+        margin-right: 50px;             
+    }
+    .menu h1{
+        font-size: 24px;
+        width: 280px;
+    }
+    .container_sec1{
+        flex-direction: column;
+        width: 100vw;
+        height: auto;
+    }
+    .sec1_texto{
+        width: 100vw;
+        height: auto;
+        padding: 0;
+    }
+    .sec1_texto h2{
+        font-size: 28px;
+        padding-left: 50px;
+        padding-top: 40px;
+        line-height: 38px
+    }
+    .sec1_texto p{
+        height: auto;
+        padding-left: 50px;
+    }
+    div.p{
+        height: auto;
+    }
+    div.sec1_img{
+        width: 100vw;
+    }
+    .sec1_img img{
+        width: 359px;
+        height: 236px;
+        margin-left: 50px;
+        margin-bottom: 40px;
+    }
+    .mis_habilidades{
+        width: 100vw;
+        height: auto;  
+        border-top: 1px solid #1E0E62;        
+    }
+    .mis_habilidades h2{
+        width: 400px;
+        padding-left: 50px;
+        text-align: left;
+        margin-top: 50px;
+    }
+    .hab_p{
+        padding-left: 50px;
+        padding-top: 40px;
+        width: 380px;
+        margin: 0;
+        text-align: left;
+    }
+    .habilidades div{
+        margin-left: 70px;
+        margin-bottom: 70px;
+    }
+    .habilidades div h3{
+        text-align: left;
+    }
+    .habilidades div p{
+        text-align: left;
+    }
+    .mi_experiencia{
+        width: 100vw;
+        height: auto;
+    }
+    .exp_p{
+        margin:0;
+        width: 100vw;
+        padding: 50px;
+        flex-grow: 1;
+    }
+    .mi_experiencia button{
+        margin: 0;
+        position: relative;
+        left: 50%;
+        transform: translateX(-50%);            
+    }
+    .informacion{
+        width: 100vw;
+        height: auto;
+    }
+    h2.info_h2{
+        font-size: 27px;
+    }
+    .informacion a{
+        font-size: 27px;
+    }
+    div.iconos{
+        margin: 50px 0;
+    }
+    div.habilidades{
+        flex-direction: column;
+        width: 100vw;
+        height: auto;
+        margin-left: 0px;
+        text-align: center;
+        display: flex;
+        justify-content: space-evenly;
+    }
+    .habilidades div{
+        justify-items: center;
+
+    }
+}
